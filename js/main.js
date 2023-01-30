@@ -505,7 +505,7 @@ map.on("load", function () {
         console.log(sliderCount);
 
         var startingTitle = document.getElementById("dropdownTitle").innerHTML;
-        if ((sliderCount == 1) & (startingTitle == "Visualize colors by...")) {
+        if ((sliderCount == 1) & (startingTitle == "Analyze colors by...")) {
           document.getElementById("narrativeSel").innerHTML = narrative[15];
           document.getElementById("dropdownTitle").innerText = "Population";
         }
